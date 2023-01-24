@@ -1,0 +1,44 @@
+.circleCont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circleOuter{
+    height: 30rem;
+    width: 30rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: 30rem; */
+    height: 38rem;
+    background-size: cover;
+}
+
+.workItems{
+    margin: 1rem;
+    cursor: pointer;
+}
+.a1{
+        transition: background-image 0.3s;
+
+    background-image: url('./Photos/circle.png');
+}
+.a2{
+    transition: background-image 0.3s;
+    background-image: url('./Photos/circle2.png');
+}
+.a3{
+        transition: background-image 0.3s;
+
+    background-image: url('./Photos/circle3.png');
+}
+.a4{
+        transition: background-image 0.3s;
+
+    background-image: url('./Photos/circle4.png');
+}

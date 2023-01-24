@@ -1,0 +1,25 @@
+.l-bg{
+    background-color: #FEFCF3;
+}
+.cont{
+    /* background-color: rgb(185, 195, 204); */
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+    max-width: 70rem;
+    border: none;    
+    padding: 3rem;
+border-radius: 0px;
+}
+
+span{
+    font-weight:600;
+}
